@@ -11,7 +11,7 @@ from sklearn.model_selection import KFold
 
 from args import make_args
 from data import get_data
-from Model import FocalLoss, Model
+from model import FocalLoss, Model
 
 
 def train_test_model(model, data_loader, optimizer, criterion, device, train=True):
